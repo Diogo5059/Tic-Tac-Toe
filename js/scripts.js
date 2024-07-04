@@ -2,7 +2,7 @@
 
 var tabuleiro = ['1', '2', '3', '4', '5', '6', '7', '8', '9']; // Initialize tabuleiro
 var jogador = 1; // move this variable to the top level
-document.getElementById("labelPlayer").innerText = "Jogador X";
+document.getElementById("labelPlayer").innerText = "Player X";
 desenharTabuleiro(tabuleiro);
 
 function desenharTabuleiro(tabuleiro) {
@@ -21,9 +21,9 @@ function verificarVitoria(jogador, index) {
 
     if ((tabuleiro[0] == (jogador == 0? 'O' : 'X') && tabuleiro[1] == (jogador == 0? 'O' : 'X') && tabuleiro[2] == (jogador == 0? 'O' : 'X'))){
         
-        document.getElementById("botao" + 0).style.backgroundColor = "red";
-        document.getElementById("botao" + 1).style.backgroundColor = "red";
-        document.getElementById("botao" + 2).style.backgroundColor = "red";
+        document.getElementById("botao" + 0).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 1).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 2).style.backgroundColor = "#44ff00";
 
         vitoria = true;
 
@@ -31,9 +31,9 @@ function verificarVitoria(jogador, index) {
 
     if ((tabuleiro[3] == (jogador == 0? 'O' : 'X') && tabuleiro[4] == (jogador == 0? 'O' : 'X') && tabuleiro[5] == (jogador == 0? 'O' : 'X'))){
         
-        document.getElementById("botao" + 3).style.backgroundColor = "red";
-        document.getElementById("botao" + 4).style.backgroundColor = "red";
-        document.getElementById("botao" + 5).style.backgroundColor = "red";
+        document.getElementById("botao" + 3).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 4).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 5).style.backgroundColor = "#44ff00";
 
         vitoria = true;
 
@@ -41,9 +41,9 @@ function verificarVitoria(jogador, index) {
 
     if ((tabuleiro[6] == (jogador == 0? 'O' : 'X') && tabuleiro[7] == (jogador == 0? 'O' : 'X') && tabuleiro[8] == (jogador == 0? 'O' : 'X'))){
         
-        document.getElementById("botao" + 6).style.backgroundColor = "red";
-        document.getElementById("botao" + 7).style.backgroundColor = "red";
-        document.getElementById("botao" + 8).style.backgroundColor = "red";
+        document.getElementById("botao" + 6).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 7).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 8).style.backgroundColor = "#44ff00";
 
         vitoria = true;
 
@@ -51,9 +51,9 @@ function verificarVitoria(jogador, index) {
 
     if ((tabuleiro[0] == (jogador == 0? 'O' : 'X') && tabuleiro[3] == (jogador == 0? 'O' : 'X') && tabuleiro[6] == (jogador == 0? 'O' : 'X'))){
         
-        document.getElementById("botao" + 0).style.backgroundColor = "red";
-        document.getElementById("botao" + 3).style.backgroundColor = "red";
-        document.getElementById("botao" + 6).style.backgroundColor = "red";
+        document.getElementById("botao" + 0).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 3).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 6).style.backgroundColor = "#44ff00";
 
         vitoria = true;
 
@@ -61,9 +61,9 @@ function verificarVitoria(jogador, index) {
 
     if ((tabuleiro[1] == (jogador == 0? 'O' : 'X') && tabuleiro[4] == (jogador == 0? 'O' : 'X') && tabuleiro[7] == (jogador == 0? 'O' : 'X'))){
         
-        document.getElementById("botao" + 1).style.backgroundColor = "red";
-        document.getElementById("botao" + 4).style.backgroundColor = "red";
-        document.getElementById("botao" + 7).style.backgroundColor = "red";
+        document.getElementById("botao" + 1).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 4).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 7).style.backgroundColor = "#44ff00";
 
         vitoria = true;
 
@@ -71,9 +71,9 @@ function verificarVitoria(jogador, index) {
 
     if ((tabuleiro[2] == (jogador == 0? 'O' : 'X') && tabuleiro[5] == (jogador == 0? 'O' : 'X') && tabuleiro[8] == (jogador == 0? 'O' : 'X'))){
         
-        document.getElementById("botao" + 2).style.backgroundColor = "red";
-        document.getElementById("botao" + 5).style.backgroundColor = "red";
-        document.getElementById("botao" + 8).style.backgroundColor = "red";
+        document.getElementById("botao" + 2).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 5).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 8).style.backgroundColor = "#44ff00";
 
         vitoria = true;
 
@@ -81,9 +81,9 @@ function verificarVitoria(jogador, index) {
 
     if ((tabuleiro[0] == (jogador == 0? 'O' : 'X') && tabuleiro[4] == (jogador == 0? 'O' : 'X') && tabuleiro[8] == (jogador == 0? 'O' : 'X'))){
         
-        document.getElementById("botao" + 0).style.backgroundColor = "red";
-        document.getElementById("botao" + 4).style.backgroundColor = "red";
-        document.getElementById("botao" + 8).style.backgroundColor = "red";
+        document.getElementById("botao" + 0).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 4).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 8).style.backgroundColor = "#44ff00";
 
         vitoria = true;
 
@@ -91,9 +91,9 @@ function verificarVitoria(jogador, index) {
 
     if ((tabuleiro[2] == (jogador == 0? 'O' : 'X') && tabuleiro[4] == (jogador == 0? 'O' : 'X') && tabuleiro[6] == (jogador == 0? 'O' : 'X'))){
         
-        document.getElementById("botao" + 2).style.backgroundColor = "red";
-        document.getElementById("botao" + 4).style.backgroundColor = "red";
-        document.getElementById("botao" + 6).style.backgroundColor = "red";
+        document.getElementById("botao" + 2).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 4).style.backgroundColor = "#44ff00";
+        document.getElementById("botao" + 6).style.backgroundColor = "#44ff00";
 
         vitoria = true;
 
@@ -141,15 +141,15 @@ function botaoPressionado(index) {
         }
         
         if (verificarEmpate() == true) {
-            document.getElementById("botao" + 0).style.backgroundColor = "red";
-            document.getElementById("botao" + 1).style.backgroundColor = "red";
-            document.getElementById("botao" + 2).style.backgroundColor = "red";
-            document.getElementById("botao" + 3).style.backgroundColor = "red";
-            document.getElementById("botao" + 4).style.backgroundColor = "red";
-            document.getElementById("botao" + 5).style.backgroundColor = "red";
-            document.getElementById("botao" + 6).style.backgroundColor = "red";
-            document.getElementById("botao" + 7).style.backgroundColor = "red";
-            document.getElementById("botao" + 8).style.backgroundColor = "red";
+            document.getElementById("botao" + 0).style.backgroundColor = "#44ff00";
+            document.getElementById("botao" + 1).style.backgroundColor = "#44ff00";
+            document.getElementById("botao" + 2).style.backgroundColor = "#44ff00";
+            document.getElementById("botao" + 3).style.backgroundColor = "#44ff00";
+            document.getElementById("botao" + 4).style.backgroundColor = "#44ff00";
+            document.getElementById("botao" + 5).style.backgroundColor = "#44ff00";
+            document.getElementById("botao" + 6).style.backgroundColor = "#44ff00";
+            document.getElementById("botao" + 7).style.backgroundColor = "#44ff00";
+            document.getElementById("botao" + 8).style.backgroundColor = "#44ff00";
             alert("Empate!");
             window.location.reload();
         }

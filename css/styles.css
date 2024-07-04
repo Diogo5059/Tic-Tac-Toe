@@ -1,5 +1,4 @@
 .button {
-    background-color: rgba(0, 132, 155, 0.74);
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -9,10 +8,29 @@
     justify-content: center; /* Add this to center the text horizontally */
     align-items: center; /* Add this to center the text vertically */
     font-size: 48px;
+    border: none;
+    color: #da0101;
+
+    background: #010024;
+
 }
 
 .button:hover{
     background-color: rgb(0, 132, 155);
+}
+
+.container{
+    border-radius: 10px;
+    background: #da0101;
+    box-shadow:  13px 13px 26px #960101,
+             -13px -13px 26px #ff0101;
+    width: 350px;
+    height: 330px;
+    padding: 30px 30px 30px 30px;
+    align-items: center; /* Add this to center the text vertically */
+    justify-content: center; /* Add this to center the text horizontally */
+    margin: 40px;
+    
 }
 
 .flex {
@@ -22,7 +40,7 @@
     margin: 0 auto; /* Simplify the margin settings */
 }
 
-h1, h3 {
+h1, h2, h3 {
     text-align: center;
     margin: 0 auto; /* Simplify the margin settings */
     /* Remove the fixed width to make it more flexible */
@@ -31,6 +49,6 @@ h1, h3 {
 body {
     max-width: 500px;
     margin: 0 auto; /* Simplify the margin settings */
-    background-color: black;
-    color:burlywood;
+    background-color: #da0101;
+    color:010024;
 }
