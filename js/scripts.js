@@ -2,7 +2,7 @@
 
 var tabuleiro = ['1', '2', '3', '4', '5', '6', '7', '8', '9']; // Initialize tabuleiro
 var jogador = 1; // move this variable to the top level
-document.getElementById("labelPlayer").innerText = "Player X";
+document.getElementById("labelPlayer").innerText = "Jogador X";
 desenharTabuleiro(tabuleiro);
 
 function desenharTabuleiro(tabuleiro) {

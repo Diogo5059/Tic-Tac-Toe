@@ -9,21 +9,19 @@
     align-items: center; /* Add this to center the text vertically */
     font-size: 48px;
     border: none;
-    color: #da0101;
-
+    color: #0803fa;
     background: #010024;
 
 }
 
 .button:hover{
-    background-color: rgb(0, 132, 155);
+    background-color: #0703fa44;
 }
 
 .container{
     border-radius: 10px;
-    background: #da0101;
-    box-shadow:  13px 13px 26px #960101,
-             -13px -13px 26px #ff0101;
+    background: #2e2e2e2d;
+    box-shadow:  0px 0px 150px 20px #0803fa;
     width: 350px;
     height: 330px;
     padding: 30px 30px 30px 30px;
@@ -43,12 +41,13 @@
 h1, h2, h3 {
     text-align: center;
     margin: 0 auto; /* Simplify the margin settings */
+    font-family: "Lucida Console", "Courier New", monospace;
     /* Remove the fixed width to make it more flexible */
 }
 
 body {
     max-width: 500px;
     margin: 0 auto; /* Simplify the margin settings */
-    background-color: #da0101;
-    color:010024;
+    background-color: #010036;
+    color: #6b68ff;
 }
